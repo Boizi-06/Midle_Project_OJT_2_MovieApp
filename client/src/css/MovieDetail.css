@@ -1,0 +1,696 @@
+.header {
+  height: 80px;
+  display: flex;
+  background-color: #0b0d13;
+  top: 0;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  /* border: 1px solid white; */
+  justify-content: space-between;
+  /* gap: 56px; */
+  align-items: center;
+
+}
+
+.header-logo {
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 50px;
+  margin-right: 50px;
+  margin-left: 55px;
+}
+
+.header-text {
+   margin-right: 40px;
+  color: white;
+}
+
+.header-nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header-nav-links a:nth-child(2) {
+  color: #ef4444;
+}
+
+.header-nav-links a:hover {
+  color: #ef4444;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  margin-right: 50px;
+  /* border: 1px solid wheat; */
+}
+
+.header-buttons button {
+ 
+  border-radius: 9999px;
+  color: white;
+  border: 1px solid white;
+  background-color:#0b0d13 ;
+  padding: 0 33px;
+  cursor: pointer;
+  transition: all 0.15s linear;
+ 
+}
+
+.header-buttons button:hover {
+  font-weight: 600;
+  transform: translateY(-2px);
+  color: #ef4444;
+}
+
+
+.movie-card {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  /* border-radius: 10px; */
+  overflow: hidden;
+
+}
+
+
+.movie-card-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/Screenshot\ 2025-12-10\ 102317.png'); 
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color-movie-card {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  ;
+  text-align: center;
+    
+    
+}
+.movie-card-content {
+  position: absolute;
+   bottom: 0;
+  right: 0;
+  display: flex;  
+  align-items: center;
+  /* border: 1px solid rgb(238, 230, 230); */
+  
+  
+  height: 345px;
+  width: 896px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white;
+  margin-right: 252px;
+  margin-bottom: 15px;
+  /* border: 1px solid black;
+  
+  */
+  
+}
+.infor-card {
+    width: 632px;
+    height: 335px;
+    /* border: 1px solid rgb(255, 19, 19); */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+ .movie-title {
+    /* margin-top: 55px; */
+    width: 400px;
+    height: 40px;
+  font-size:26px;
+  font-weight: bold;
+   /* border: 1px solid black; */
+}
+
+.movie-subtitle {
+  font-size: 20px;
+  /* margin-top: 10px; */
+  /* border: 1px solid black; */
+}
+
+.movie-details {
+  font-size: 17px;
+  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.movie-cast {
+  font-size: 14px;
+  
+}
+
+.movie-release-date {
+  font-size: 14px;
+ 
+}
+
+.movie-description {
+  font-size: 14px;
+  
+}
+
+.movie-actions {
+  display: flex;
+  /* gap: 15px; */
+}
+
+.action-link {
+    width: 100%;
+   
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #f97316;
+  text-decoration: none;
+  transition: color 0.3s;
+  /* border: 1px solid black; */
+  
+}
+.more-infor {
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+.trailer {
+    margin-top: 15px;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #EAB308;
+    color: #EAB308;
+    border-radius: 35px;
+
+}
+
+.action-link:hover {
+  color: #ef4444;
+}
+
+.action-link:focus {
+  outline: none;
+}
+
+
+
+.avtMovie {
+    width: 238px;
+    height: 333px;
+    
+}
+.list-time-screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 91px;
+    background-color: #35363a;
+}
+.time-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 72px;
+    height: 91px;
+    color: white;
+}
+
+.day-text{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.time-screen:hover {
+  background-color: #ef4444;
+}
+.choose-time-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:230px;
+  background-color: #212227;
+}
+
+.note p {
+  font-weight: bold;
+  color: #f97316;
+}
+
+.list-start-screen {
+  width: 896px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+ 
+}
+.list-start-screen span {
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  width: 166px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  
+  border: 0.3px solid white;
+}
+.list-start-screen span:hover {
+  background-color: #1F2937;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Phần chọn ghế */
+.seat-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.infor-time {
+  width: 896px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.infor-time span {
+  font-weight: bold;
+}
+.infor-time p {
+  border: 0.5px solid red;
+  padding: 5px 15px;
+  border-radius: 30px;
+  
+}
+.seat-selection img {
+  margin-bottom: 5px;
+}
+.class-show-movie {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.seat-map {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+.seat-row {
+  display: flex;
+  gap: 8px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #252A31;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+.infor-seat {
+  margin-top: 50px;
+  width: 780px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.infor-seat div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.infor-seat .seat-close{
+  width: 106px;
+}
+
+.infor-seat .seat-close span {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252A31;
+  color: #ccc;
+}
+
+
+.infor-seat .seat-your-choose{
+  width: 165px;
+}
+
+.infor-seat .seat-your-choose span {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007AFF;
+  
+}
+.infor-seat .seat-classic{
+  width: 149px;
+}
+
+.infor-seat .seat-classic span {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252A31;
+  
+}
+
+.infor-seat .seat-vip{
+  width: 117px;
+}
+
+ /* .seat-vip {
+   background-color: #eb6c11;
+} */
+
+
+.seat-row .seat-vip {
+   background-color: #eb6c11;
+}
+
+
+
+.infor-seat .seat-vip span {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eb6c11;
+  
+}
+/* .seat-vip {
+   background-color: #eb6c11;
+} */
+.infor-seat .seat-couple{
+  width: 115px;
+}
+
+.infor-seat .seat-couple span {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DC2626;
+  
+}
+.confirm-seat {
+  width: 80%;
+  height: 80px;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.sum-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.sum-price p {
+  height: 30px;
+  /* border: 1px solid white; */
+}
+.price {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+.price span {
+  margin-left: 5px;
+  height: 30px;
+  font-weight: bold;
+  /* border: 1px solid white; */
+}
+
+
+
+.payment {
+  width: 146px;
+  height: 40px;
+  background-color:#ec6a6a;
+  color: white;
+  border-radius: 9999px;
+  border: 1px solid #ec6a6a;
+  margin-left: 20px;
+}
+
+
+.back {
+  width: 124px;
+  height: 40px;
+  background-color:black;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 9999px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ghế đã mua */
+.seat-booked {
+  background-color: #000; /* Màu đen cho ghế đã mua */
+  cursor: not-allowed;
+}
+
+.seat-booked .seat-x {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+/* Ghế người dùng chọn */
+.seat-user-selected {
+  background-color: #0000ff; /* Màu xanh dương cho ghế người dùng chọn */
+}
+
+.seat-user-selected:hover {
+  background-color: #0000cc; /* Màu xanh đậm hơn khi hover */
+}
+
+/* Ghế có sẵn */
+.seat-available {
+  background-color: #ff7b00; /* Màu ghế chưa chọn */
+}
+
+.seat-available:hover {
+  background-color: #e66e00; /* Màu ghế khi hover */
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.seat-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat-x {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ghế đã mua */
+.seat-booked {
+  background-color: #000; /* Màu đen cho ghế đã mua */
+  cursor: not-allowed;
+}
+
+.seat-booked .seat-x {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+/* Ghế người dùng chọn */
+.seat-user-selected {
+  background-color: #0000ff; /* Màu xanh dương cho ghế người dùng chọn */
+}
+
+.seat-user-selected:hover {
+  background-color: #0000cc; /* Màu xanh đậm hơn khi hover */
+}
+
+/* Ghế có sẵn */
+.seat-available {
+  background-color: #ff7b00; /* Màu ghế chưa chọn */
+}
+
+.seat-available:hover {
+  background-color: #e66e00; /* Màu ghế khi hover */
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.seat-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.seat-row .seat-classic {
+  background-color: #212227;
+}
+.seat-x {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}

@@ -1,0 +1,2780 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "name": "ng nhat",
+      "username": "@nhat",
+      "email": "nghoangnhat30@gmail.com",
+      "password": "Nnhat1704",
+      "status": "hoạt động"
+    },
+    {
+      "id": "2",
+      "name": "hoang son",
+      "username": "@Boizi",
+      "email": "son666727@gmail.com",
+      "password": "Hoangson06@",
+      "status": "hoạt động"
+    },
+    {
+      "name": "khac hung",
+      "username": "@hung",
+      "email": "hung@gmail.com",
+      "password": "hung1234",
+      "status": "hoạt động",
+      "id": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "ng nhat",
+      "username": "@nhat",
+      "email": "nghoangnhat30@gmail.com",
+      "password": "Nnhat1704",
+      "status": "hoạt động"
+    },
+    {
+      "id": "2",
+      "name": "hoang son",
+      "username": "@Boizi",
+      "email": "son666727@gmail.com",
+      "password": "Hoangson06@",
+      "status": "hoạt động"
+    },
+    {
+      "name": "hoang long",
+      "username": "@long",
+      "email": "long@gmail.com",
+      "password": "Longle123@",
+      "status": "hoạt động",
+      "id": "3"
+    }
+  ],
+  "cinema": {
+    "id": 1,
+    "name": "Trung tâm Chiếu phim Quốc gia",
+    "shortName": "NCC",
+    "address": "87 Láng Hạ, Ba Đình, Hà Nội",
+    "hotline": "024.35141791",
+    "website": "https://chieuphimquocgia.com.vn",
+    "logo": "/assets/images/header-logo.png",
+    "createdAt": "2025-01-01T10:20:00"
+  },
+  "genres": [
+    {
+      "id": 1,
+      "name": "Hành động"
+    },
+    {
+      "id": 2,
+      "name": "Hoạt hình"
+    }
+  ],
+  "movies": [
+    {
+      "id": 10,
+      "title": "Avengers: Endgame",
+      "poster": "/posters/endgame.jpg",
+      "banner": "/posters/endgame.jpg",
+      "trailer": "https://youtube.com/...",
+      "description": "Trận chiến cuối cùng với Thanos...",
+      "duration": 180,
+      "releaseDate": "2025-02-20",
+      "status": "now_showing",
+      "genreIds": [
+        1
+      ],
+      "director": "Anthony Russo",
+      "actors": [
+        "Chris Evans",
+        "Robert Downey Jr"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "id": 1,
+      "cinemaId": 1,
+      "name": "Phòng 1",
+      "type": "2D"
+    },
+    {
+      "id": 2,
+      "cinemaId": 1,
+      "name": "Phòng 2",
+      "type": "2D"
+    }
+  ],
+  "seats": [
+    {
+      "id": 1000,
+      "screenId": 1,
+      "code": "A1",
+      "row": "A",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1001,
+      "screenId": 1,
+      "code": "A2",
+      "row": "A",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1002,
+      "screenId": 1,
+      "code": "A3",
+      "row": "A",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 1003,
+      "screenId": 1,
+      "code": "A4",
+      "row": "A",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 1004,
+      "screenId": 1,
+      "code": "A5",
+      "row": "A",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 1005,
+      "screenId": 1,
+      "code": "A6",
+      "row": "A",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 1006,
+      "screenId": 1,
+      "code": "A7",
+      "row": "A",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 1007,
+      "screenId": 1,
+      "code": "A8",
+      "row": "A",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 1008,
+      "screenId": 1,
+      "code": "A9",
+      "row": "A",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 1009,
+      "screenId": 1,
+      "code": "A10",
+      "row": "A",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 1010,
+      "screenId": 1,
+      "code": "A11",
+      "row": "A",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 1011,
+      "screenId": 1,
+      "code": "A12",
+      "row": "A",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 1012,
+      "screenId": 1,
+      "code": "A13",
+      "row": "A",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 1013,
+      "screenId": 1,
+      "code": "A14",
+      "row": "A",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1014,
+      "screenId": 1,
+      "code": "A15",
+      "row": "A",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1015,
+      "screenId": 1,
+      "code": "B1",
+      "row": "B",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1016,
+      "screenId": 1,
+      "code": "B2",
+      "row": "B",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1017,
+      "screenId": 1,
+      "code": "B3",
+      "row": "B",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 1018,
+      "screenId": 1,
+      "code": "B4",
+      "row": "B",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 1019,
+      "screenId": 1,
+      "code": "B5",
+      "row": "B",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 1020,
+      "screenId": 1,
+      "code": "B6",
+      "row": "B",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 1021,
+      "screenId": 1,
+      "code": "B7",
+      "row": "B",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 1022,
+      "screenId": 1,
+      "code": "B8",
+      "row": "B",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 1023,
+      "screenId": 1,
+      "code": "B9",
+      "row": "B",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 1024,
+      "screenId": 1,
+      "code": "B10",
+      "row": "B",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 1025,
+      "screenId": 1,
+      "code": "B11",
+      "row": "B",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 1026,
+      "screenId": 1,
+      "code": "B12",
+      "row": "B",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 1027,
+      "screenId": 1,
+      "code": "B13",
+      "row": "B",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 1028,
+      "screenId": 1,
+      "code": "B14",
+      "row": "B",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1029,
+      "screenId": 1,
+      "code": "B15",
+      "row": "B",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1030,
+      "screenId": 1,
+      "code": "C1",
+      "row": "C",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1031,
+      "screenId": 1,
+      "code": "C2",
+      "row": "C",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1032,
+      "screenId": 1,
+      "code": "C3",
+      "row": "C",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 1033,
+      "screenId": 1,
+      "code": "C4",
+      "row": "C",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 1034,
+      "screenId": 1,
+      "code": "C5",
+      "row": "C",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 1035,
+      "screenId": 1,
+      "code": "C6",
+      "row": "C",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 1036,
+      "screenId": 1,
+      "code": "C7",
+      "row": "C",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 1037,
+      "screenId": 1,
+      "code": "C8",
+      "row": "C",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 1038,
+      "screenId": 1,
+      "code": "C9",
+      "row": "C",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 1039,
+      "screenId": 1,
+      "code": "C10",
+      "row": "C",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 1040,
+      "screenId": 1,
+      "code": "C11",
+      "row": "C",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 1041,
+      "screenId": 1,
+      "code": "C12",
+      "row": "C",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 1042,
+      "screenId": 1,
+      "code": "C13",
+      "row": "C",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 1043,
+      "screenId": 1,
+      "code": "C14",
+      "row": "C",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1044,
+      "screenId": 1,
+      "code": "C15",
+      "row": "C",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1045,
+      "screenId": 1,
+      "code": "D1",
+      "row": "D",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1046,
+      "screenId": 1,
+      "code": "D2",
+      "row": "D",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1047,
+      "screenId": 1,
+      "code": "D3",
+      "row": "D",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 1048,
+      "screenId": 1,
+      "code": "D4",
+      "row": "D",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 1049,
+      "screenId": 1,
+      "code": "D5",
+      "row": "D",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 1050,
+      "screenId": 1,
+      "code": "D6",
+      "row": "D",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 1051,
+      "screenId": 1,
+      "code": "D7",
+      "row": "D",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 1052,
+      "screenId": 1,
+      "code": "D8",
+      "row": "D",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 1053,
+      "screenId": 1,
+      "code": "D9",
+      "row": "D",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 1054,
+      "screenId": 1,
+      "code": "D10",
+      "row": "D",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 1055,
+      "screenId": 1,
+      "code": "D11",
+      "row": "D",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 1056,
+      "screenId": 1,
+      "code": "D12",
+      "row": "D",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 1057,
+      "screenId": 1,
+      "code": "D13",
+      "row": "D",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 1058,
+      "screenId": 1,
+      "code": "D14",
+      "row": "D",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1059,
+      "screenId": 1,
+      "code": "D15",
+      "row": "D",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1060,
+      "screenId": 1,
+      "code": "E1",
+      "row": "E",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1061,
+      "screenId": 1,
+      "code": "E2",
+      "row": "E",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1062,
+      "screenId": 1,
+      "code": "E3",
+      "row": "E",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 1063,
+      "screenId": 1,
+      "code": "E4",
+      "row": "E",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 1064,
+      "screenId": 1,
+      "code": "E5",
+      "row": "E",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 1065,
+      "screenId": 1,
+      "code": "E6",
+      "row": "E",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 1066,
+      "screenId": 1,
+      "code": "E7",
+      "row": "E",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 1067,
+      "screenId": 1,
+      "code": "E8",
+      "row": "E",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 1068,
+      "screenId": 1,
+      "code": "E9",
+      "row": "E",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 1069,
+      "screenId": 1,
+      "code": "E10",
+      "row": "E",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 1070,
+      "screenId": 1,
+      "code": "E11",
+      "row": "E",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 1071,
+      "screenId": 1,
+      "code": "E12",
+      "row": "E",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 1072,
+      "screenId": 1,
+      "code": "E13",
+      "row": "E",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 1073,
+      "screenId": 1,
+      "code": "E14",
+      "row": "E",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1074,
+      "screenId": 1,
+      "code": "E15",
+      "row": "E",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1075,
+      "screenId": 1,
+      "code": "F1",
+      "row": "F",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1076,
+      "screenId": 1,
+      "code": "F2",
+      "row": "F",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1077,
+      "screenId": 1,
+      "code": "F3",
+      "row": "F",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 1078,
+      "screenId": 1,
+      "code": "F4",
+      "row": "F",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 1079,
+      "screenId": 1,
+      "code": "F5",
+      "row": "F",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 1080,
+      "screenId": 1,
+      "code": "F6",
+      "row": "F",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 1081,
+      "screenId": 1,
+      "code": "F7",
+      "row": "F",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 1082,
+      "screenId": 1,
+      "code": "F8",
+      "row": "F",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 1083,
+      "screenId": 1,
+      "code": "F9",
+      "row": "F",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 1084,
+      "screenId": 1,
+      "code": "F10",
+      "row": "F",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 1085,
+      "screenId": 1,
+      "code": "F11",
+      "row": "F",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 1086,
+      "screenId": 1,
+      "code": "F12",
+      "row": "F",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 1087,
+      "screenId": 1,
+      "code": "F13",
+      "row": "F",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 1088,
+      "screenId": 1,
+      "code": "F14",
+      "row": "F",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1089,
+      "screenId": 1,
+      "code": "F15",
+      "row": "F",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1090,
+      "screenId": 1,
+      "code": "G1",
+      "row": "G",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1091,
+      "screenId": 1,
+      "code": "G2",
+      "row": "G",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1092,
+      "screenId": 1,
+      "code": "G3",
+      "row": "G",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 1093,
+      "screenId": 1,
+      "code": "G4",
+      "row": "G",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 1094,
+      "screenId": 1,
+      "code": "G5",
+      "row": "G",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 1095,
+      "screenId": 1,
+      "code": "G6",
+      "row": "G",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 1096,
+      "screenId": 1,
+      "code": "G7",
+      "row": "G",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 1097,
+      "screenId": 1,
+      "code": "G8",
+      "row": "G",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 1098,
+      "screenId": 1,
+      "code": "G9",
+      "row": "G",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 1099,
+      "screenId": 1,
+      "code": "G10",
+      "row": "G",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 1100,
+      "screenId": 1,
+      "code": "G11",
+      "row": "G",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 1101,
+      "screenId": 1,
+      "code": "G12",
+      "row": "G",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 1102,
+      "screenId": 1,
+      "code": "G13",
+      "row": "G",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 1103,
+      "screenId": 1,
+      "code": "G14",
+      "row": "G",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1104,
+      "screenId": 1,
+      "code": "G15",
+      "row": "G",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1105,
+      "screenId": 1,
+      "code": "H1",
+      "row": "H",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1106,
+      "screenId": 1,
+      "code": "H2",
+      "row": "H",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1107,
+      "screenId": 1,
+      "code": "H3",
+      "row": "H",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 1108,
+      "screenId": 1,
+      "code": "H4",
+      "row": "H",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 1109,
+      "screenId": 1,
+      "code": "H5",
+      "row": "H",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 1110,
+      "screenId": 1,
+      "code": "H6",
+      "row": "H",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 1111,
+      "screenId": 1,
+      "code": "H7",
+      "row": "H",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 1112,
+      "screenId": 1,
+      "code": "H8",
+      "row": "H",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 1113,
+      "screenId": 1,
+      "code": "H9",
+      "row": "H",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 1114,
+      "screenId": 1,
+      "code": "H10",
+      "row": "H",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 1115,
+      "screenId": 1,
+      "code": "H11",
+      "row": "H",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 1116,
+      "screenId": 1,
+      "code": "H12",
+      "row": "H",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 1117,
+      "screenId": 1,
+      "code": "H13",
+      "row": "H",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 1118,
+      "screenId": 1,
+      "code": "H14",
+      "row": "H",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1119,
+      "screenId": 1,
+      "code": "H15",
+      "row": "H",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1120,
+      "screenId": 1,
+      "code": "I1",
+      "row": "I",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1121,
+      "screenId": 1,
+      "code": "I2",
+      "row": "I",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1122,
+      "screenId": 1,
+      "code": "I3",
+      "row": "I",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 1123,
+      "screenId": 1,
+      "code": "I4",
+      "row": "I",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 1124,
+      "screenId": 1,
+      "code": "I5",
+      "row": "I",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 1125,
+      "screenId": 1,
+      "code": "I6",
+      "row": "I",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 1126,
+      "screenId": 1,
+      "code": "I7",
+      "row": "I",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 1127,
+      "screenId": 1,
+      "code": "I8",
+      "row": "I",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 1128,
+      "screenId": 1,
+      "code": "I9",
+      "row": "I",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 1129,
+      "screenId": 1,
+      "code": "I10",
+      "row": "I",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 1130,
+      "screenId": 1,
+      "code": "I11",
+      "row": "I",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 1131,
+      "screenId": 1,
+      "code": "I12",
+      "row": "I",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 1132,
+      "screenId": 1,
+      "code": "I13",
+      "row": "I",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 1133,
+      "screenId": 1,
+      "code": "I14",
+      "row": "I",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1134,
+      "screenId": 1,
+      "code": "I15",
+      "row": "I",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 1135,
+      "screenId": 1,
+      "code": "J1",
+      "row": "J",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 1136,
+      "screenId": 1,
+      "code": "J2",
+      "row": "J",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 1137,
+      "screenId": 1,
+      "code": "J3",
+      "row": "J",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 1138,
+      "screenId": 1,
+      "code": "J4",
+      "row": "J",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 1139,
+      "screenId": 1,
+      "code": "J5",
+      "row": "J",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 1140,
+      "screenId": 1,
+      "code": "J6",
+      "row": "J",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 1141,
+      "screenId": 1,
+      "code": "J7",
+      "row": "J",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 1142,
+      "screenId": 1,
+      "code": "J8",
+      "row": "J",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 1143,
+      "screenId": 1,
+      "code": "J9",
+      "row": "J",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 1144,
+      "screenId": 1,
+      "code": "J10",
+      "row": "J",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 1145,
+      "screenId": 1,
+      "code": "J11",
+      "row": "J",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 1146,
+      "screenId": 1,
+      "code": "J12",
+      "row": "J",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 1147,
+      "screenId": 1,
+      "code": "J13",
+      "row": "J",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 1148,
+      "screenId": 1,
+      "code": "J14",
+      "row": "J",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 1149,
+      "screenId": 1,
+      "code": "J15",
+      "row": "J",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2000,
+      "screenId": 2,
+      "code": "A1",
+      "row": "A",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2001,
+      "screenId": 2,
+      "code": "A2",
+      "row": "A",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2002,
+      "screenId": 2,
+      "code": "A3",
+      "row": "A",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 2003,
+      "screenId": 2,
+      "code": "A4",
+      "row": "A",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 2004,
+      "screenId": 2,
+      "code": "A5",
+      "row": "A",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 2005,
+      "screenId": 2,
+      "code": "A6",
+      "row": "A",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 2006,
+      "screenId": 2,
+      "code": "A7",
+      "row": "A",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 2007,
+      "screenId": 2,
+      "code": "A8",
+      "row": "A",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 2008,
+      "screenId": 2,
+      "code": "A9",
+      "row": "A",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 2009,
+      "screenId": 2,
+      "code": "A10",
+      "row": "A",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 2010,
+      "screenId": 2,
+      "code": "A11",
+      "row": "A",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 2011,
+      "screenId": 2,
+      "code": "A12",
+      "row": "A",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 2012,
+      "screenId": 2,
+      "code": "A13",
+      "row": "A",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 2013,
+      "screenId": 2,
+      "code": "A14",
+      "row": "A",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2014,
+      "screenId": 2,
+      "code": "A15",
+      "row": "A",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2015,
+      "screenId": 2,
+      "code": "B1",
+      "row": "B",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2016,
+      "screenId": 2,
+      "code": "B2",
+      "row": "B",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2017,
+      "screenId": 2,
+      "code": "B3",
+      "row": "B",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 2018,
+      "screenId": 2,
+      "code": "B4",
+      "row": "B",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 2019,
+      "screenId": 2,
+      "code": "B5",
+      "row": "B",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 2020,
+      "screenId": 2,
+      "code": "B6",
+      "row": "B",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 2021,
+      "screenId": 2,
+      "code": "B7",
+      "row": "B",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 2022,
+      "screenId": 2,
+      "code": "B8",
+      "row": "B",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 2023,
+      "screenId": 2,
+      "code": "B9",
+      "row": "B",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 2024,
+      "screenId": 2,
+      "code": "B10",
+      "row": "B",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 2025,
+      "screenId": 2,
+      "code": "B11",
+      "row": "B",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 2026,
+      "screenId": 2,
+      "code": "B12",
+      "row": "B",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 2027,
+      "screenId": 2,
+      "code": "B13",
+      "row": "B",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 2028,
+      "screenId": 2,
+      "code": "B14",
+      "row": "B",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2029,
+      "screenId": 2,
+      "code": "B15",
+      "row": "B",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2030,
+      "screenId": 2,
+      "code": "C1",
+      "row": "C",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2031,
+      "screenId": 2,
+      "code": "C2",
+      "row": "C",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2032,
+      "screenId": 2,
+      "code": "C3",
+      "row": "C",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 2033,
+      "screenId": 2,
+      "code": "C4",
+      "row": "C",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 2034,
+      "screenId": 2,
+      "code": "C5",
+      "row": "C",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 2035,
+      "screenId": 2,
+      "code": "C6",
+      "row": "C",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 2036,
+      "screenId": 2,
+      "code": "C7",
+      "row": "C",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 2037,
+      "screenId": 2,
+      "code": "C8",
+      "row": "C",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 2038,
+      "screenId": 2,
+      "code": "C9",
+      "row": "C",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 2039,
+      "screenId": 2,
+      "code": "C10",
+      "row": "C",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 2040,
+      "screenId": 2,
+      "code": "C11",
+      "row": "C",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 2041,
+      "screenId": 2,
+      "code": "C12",
+      "row": "C",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 2042,
+      "screenId": 2,
+      "code": "C13",
+      "row": "C",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 2043,
+      "screenId": 2,
+      "code": "C14",
+      "row": "C",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2044,
+      "screenId": 2,
+      "code": "C15",
+      "row": "C",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2045,
+      "screenId": 2,
+      "code": "D1",
+      "row": "D",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2046,
+      "screenId": 2,
+      "code": "D2",
+      "row": "D",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2047,
+      "screenId": 2,
+      "code": "D3",
+      "row": "D",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 2048,
+      "screenId": 2,
+      "code": "D4",
+      "row": "D",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 2049,
+      "screenId": 2,
+      "code": "D5",
+      "row": "D",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 2050,
+      "screenId": 2,
+      "code": "D6",
+      "row": "D",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 2051,
+      "screenId": 2,
+      "code": "D7",
+      "row": "D",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 2052,
+      "screenId": 2,
+      "code": "D8",
+      "row": "D",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 2053,
+      "screenId": 2,
+      "code": "D9",
+      "row": "D",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 2054,
+      "screenId": 2,
+      "code": "D10",
+      "row": "D",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 2055,
+      "screenId": 2,
+      "code": "D11",
+      "row": "D",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 2056,
+      "screenId": 2,
+      "code": "D12",
+      "row": "D",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 2057,
+      "screenId": 2,
+      "code": "D13",
+      "row": "D",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 2058,
+      "screenId": 2,
+      "code": "D14",
+      "row": "D",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2059,
+      "screenId": 2,
+      "code": "D15",
+      "row": "D",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2060,
+      "screenId": 2,
+      "code": "E1",
+      "row": "E",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2061,
+      "screenId": 2,
+      "code": "E2",
+      "row": "E",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2062,
+      "screenId": 2,
+      "code": "E3",
+      "row": "E",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 2063,
+      "screenId": 2,
+      "code": "E4",
+      "row": "E",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 2064,
+      "screenId": 2,
+      "code": "E5",
+      "row": "E",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 2065,
+      "screenId": 2,
+      "code": "E6",
+      "row": "E",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 2066,
+      "screenId": 2,
+      "code": "E7",
+      "row": "E",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 2067,
+      "screenId": 2,
+      "code": "E8",
+      "row": "E",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 2068,
+      "screenId": 2,
+      "code": "E9",
+      "row": "E",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 2069,
+      "screenId": 2,
+      "code": "E10",
+      "row": "E",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 2070,
+      "screenId": 2,
+      "code": "E11",
+      "row": "E",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 2071,
+      "screenId": 2,
+      "code": "E12",
+      "row": "E",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 2072,
+      "screenId": 2,
+      "code": "E13",
+      "row": "E",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 2073,
+      "screenId": 2,
+      "code": "E14",
+      "row": "E",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2074,
+      "screenId": 2,
+      "code": "E15",
+      "row": "E",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2075,
+      "screenId": 2,
+      "code": "F1",
+      "row": "F",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2076,
+      "screenId": 2,
+      "code": "F2",
+      "row": "F",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2077,
+      "screenId": 2,
+      "code": "F3",
+      "row": "F",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 2078,
+      "screenId": 2,
+      "code": "F4",
+      "row": "F",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 2079,
+      "screenId": 2,
+      "code": "F5",
+      "row": "F",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 2080,
+      "screenId": 2,
+      "code": "F6",
+      "row": "F",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 2081,
+      "screenId": 2,
+      "code": "F7",
+      "row": "F",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 2082,
+      "screenId": 2,
+      "code": "F8",
+      "row": "F",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 2083,
+      "screenId": 2,
+      "code": "F9",
+      "row": "F",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 2084,
+      "screenId": 2,
+      "code": "F10",
+      "row": "F",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 2085,
+      "screenId": 2,
+      "code": "F11",
+      "row": "F",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 2086,
+      "screenId": 2,
+      "code": "F12",
+      "row": "F",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 2087,
+      "screenId": 2,
+      "code": "F13",
+      "row": "F",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 2088,
+      "screenId": 2,
+      "code": "F14",
+      "row": "F",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2089,
+      "screenId": 2,
+      "code": "F15",
+      "row": "F",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2090,
+      "screenId": 2,
+      "code": "G1",
+      "row": "G",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2091,
+      "screenId": 2,
+      "code": "G2",
+      "row": "G",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2092,
+      "screenId": 2,
+      "code": "G3",
+      "row": "G",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 2093,
+      "screenId": 2,
+      "code": "G4",
+      "row": "G",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 2094,
+      "screenId": 2,
+      "code": "G5",
+      "row": "G",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 2095,
+      "screenId": 2,
+      "code": "G6",
+      "row": "G",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 2096,
+      "screenId": 2,
+      "code": "G7",
+      "row": "G",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 2097,
+      "screenId": 2,
+      "code": "G8",
+      "row": "G",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 2098,
+      "screenId": 2,
+      "code": "G9",
+      "row": "G",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 2099,
+      "screenId": 2,
+      "code": "G10",
+      "row": "G",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 2100,
+      "screenId": 2,
+      "code": "G11",
+      "row": "G",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 2101,
+      "screenId": 2,
+      "code": "G12",
+      "row": "G",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 2102,
+      "screenId": 2,
+      "code": "G13",
+      "row": "G",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 2103,
+      "screenId": 2,
+      "code": "G14",
+      "row": "G",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2104,
+      "screenId": 2,
+      "code": "G15",
+      "row": "G",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2105,
+      "screenId": 2,
+      "code": "H1",
+      "row": "H",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2106,
+      "screenId": 2,
+      "code": "H2",
+      "row": "H",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2107,
+      "screenId": 2,
+      "code": "H3",
+      "row": "H",
+      "col": 3,
+      "type": "vip"
+    },
+    {
+      "id": 2108,
+      "screenId": 2,
+      "code": "H4",
+      "row": "H",
+      "col": 4,
+      "type": "vip"
+    },
+    {
+      "id": 2109,
+      "screenId": 2,
+      "code": "H5",
+      "row": "H",
+      "col": 5,
+      "type": "vip"
+    },
+    {
+      "id": 2110,
+      "screenId": 2,
+      "code": "H6",
+      "row": "H",
+      "col": 6,
+      "type": "vip"
+    },
+    {
+      "id": 2111,
+      "screenId": 2,
+      "code": "H7",
+      "row": "H",
+      "col": 7,
+      "type": "vip"
+    },
+    {
+      "id": 2112,
+      "screenId": 2,
+      "code": "H8",
+      "row": "H",
+      "col": 8,
+      "type": "vip"
+    },
+    {
+      "id": 2113,
+      "screenId": 2,
+      "code": "H9",
+      "row": "H",
+      "col": 9,
+      "type": "vip"
+    },
+    {
+      "id": 2114,
+      "screenId": 2,
+      "code": "H10",
+      "row": "H",
+      "col": 10,
+      "type": "vip"
+    },
+    {
+      "id": 2115,
+      "screenId": 2,
+      "code": "H11",
+      "row": "H",
+      "col": 11,
+      "type": "vip"
+    },
+    {
+      "id": 2116,
+      "screenId": 2,
+      "code": "H12",
+      "row": "H",
+      "col": 12,
+      "type": "vip"
+    },
+    {
+      "id": 2117,
+      "screenId": 2,
+      "code": "H13",
+      "row": "H",
+      "col": 13,
+      "type": "vip"
+    },
+    {
+      "id": 2118,
+      "screenId": 2,
+      "code": "H14",
+      "row": "H",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2119,
+      "screenId": 2,
+      "code": "H15",
+      "row": "H",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2120,
+      "screenId": 2,
+      "code": "I1",
+      "row": "I",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2121,
+      "screenId": 2,
+      "code": "I2",
+      "row": "I",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2122,
+      "screenId": 2,
+      "code": "I3",
+      "row": "I",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 2123,
+      "screenId": 2,
+      "code": "I4",
+      "row": "I",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 2124,
+      "screenId": 2,
+      "code": "I5",
+      "row": "I",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 2125,
+      "screenId": 2,
+      "code": "I6",
+      "row": "I",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 2126,
+      "screenId": 2,
+      "code": "I7",
+      "row": "I",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 2127,
+      "screenId": 2,
+      "code": "I8",
+      "row": "I",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 2128,
+      "screenId": 2,
+      "code": "I9",
+      "row": "I",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 2129,
+      "screenId": 2,
+      "code": "I10",
+      "row": "I",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 2130,
+      "screenId": 2,
+      "code": "I11",
+      "row": "I",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 2131,
+      "screenId": 2,
+      "code": "I12",
+      "row": "I",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 2132,
+      "screenId": 2,
+      "code": "I13",
+      "row": "I",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 2133,
+      "screenId": 2,
+      "code": "I14",
+      "row": "I",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2134,
+      "screenId": 2,
+      "code": "I15",
+      "row": "I",
+      "col": 15,
+      "type": "normal"
+    },
+    {
+      "id": 2135,
+      "screenId": 2,
+      "code": "J1",
+      "row": "J",
+      "col": 1,
+      "type": "normal"
+    },
+    {
+      "id": 2136,
+      "screenId": 2,
+      "code": "J2",
+      "row": "J",
+      "col": 2,
+      "type": "normal"
+    },
+    {
+      "id": 2137,
+      "screenId": 2,
+      "code": "J3",
+      "row": "J",
+      "col": 3,
+      "type": "normal"
+    },
+    {
+      "id": 2138,
+      "screenId": 2,
+      "code": "J4",
+      "row": "J",
+      "col": 4,
+      "type": "normal"
+    },
+    {
+      "id": 2139,
+      "screenId": 2,
+      "code": "J5",
+      "row": "J",
+      "col": 5,
+      "type": "normal"
+    },
+    {
+      "id": 2140,
+      "screenId": 2,
+      "code": "J6",
+      "row": "J",
+      "col": 6,
+      "type": "normal"
+    },
+    {
+      "id": 2141,
+      "screenId": 2,
+      "code": "J7",
+      "row": "J",
+      "col": 7,
+      "type": "normal"
+    },
+    {
+      "id": 2142,
+      "screenId": 2,
+      "code": "J8",
+      "row": "J",
+      "col": 8,
+      "type": "normal"
+    },
+    {
+      "id": 2143,
+      "screenId": 2,
+      "code": "J9",
+      "row": "J",
+      "col": 9,
+      "type": "normal"
+    },
+    {
+      "id": 2144,
+      "screenId": 2,
+      "code": "J10",
+      "row": "J",
+      "col": 10,
+      "type": "normal"
+    },
+    {
+      "id": 2145,
+      "screenId": 2,
+      "code": "J11",
+      "row": "J",
+      "col": 11,
+      "type": "normal"
+    },
+    {
+      "id": 2146,
+      "screenId": 2,
+      "code": "J12",
+      "row": "J",
+      "col": 12,
+      "type": "normal"
+    },
+    {
+      "id": 2147,
+      "screenId": 2,
+      "code": "J13",
+      "row": "J",
+      "col": 13,
+      "type": "normal"
+    },
+    {
+      "id": 2148,
+      "screenId": 2,
+      "code": "J14",
+      "row": "J",
+      "col": 14,
+      "type": "normal"
+    },
+    {
+      "id": 2149,
+      "screenId": 2,
+      "code": "J15",
+      "row": "J",
+      "col": 15,
+      "type": "normal"
+    }
+  ],
+  "showtimes": [
+    {
+      "id": 500,
+      "movieId": 10,
+      "screenId": 2,
+      "date": "2025-03-01",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "format": "2D",
+      "pricing": {
+        "normal": 100000,
+        "vip": 130000
+      },
+      "reservedSeatCodes": [
+        "A3",
+        "A4",
+        "B2",
+        "D8",
+        "G9",
+        "G10",
+        "F9",
+        "F10",
+        "D10",
+        "D11",
+        "C5",
+        "C6",
+        "E12",
+        "G7",
+        "G8",
+        "H12",
+        "H13",
+        "G6",
+        "G5",
+        "B9",
+        "B15",
+        "B14",
+        "D9",
+        "C9",
+        "D6",
+        "D7",
+        "J10"
+      ]
+    },
+    {
+      "id": 501,
+      "movieId": 10,
+      "screenId": 2,
+      "date": "2025-03-01",
+      "startTime": "20:00",
+      "endTime": "23:00",
+      "format": "2D",
+      "pricing": {
+        "normal": 100000,
+        "vip": 130000
+      },
+      "reservedSeatCodes": [
+        "A3",
+        "A4",
+        "B2",
+        "D8",
+        "G9",
+        "G11",
+        "G13",
+        "G12"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": 900,
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "A1",
+        "A2"
+      ],
+      "totalPrice": 200000,
+      "status": "pending",
+      "createdAt": "2025-03-01T17:00:00"
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "D10",
+        "D11"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-17T19:20:21.519Z",
+      "id": 901
+    },
+    {
+      "userId": 1,
+      "showtimeId": 501,
+      "seatCodes": [
+        "G10",
+        "G12"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-17T19:26:50.625Z",
+      "id": 902
+    },
+    {
+      "userId": 1,
+      "showtimeId": 501,
+      "seatCodes": [
+        "G13",
+        "G12"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-17T19:38:56.377Z",
+      "id": 903
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "C5",
+        "C6"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-17T19:40:24.821Z",
+      "id": 904
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "E12"
+      ],
+      "totalPrice": 130000,
+      "status": "pending",
+      "createdAt": "2025-12-17T19:54:57.631Z",
+      "id": 905
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "G7",
+        "G8"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-18T00:21:16.294Z",
+      "id": 906
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "H12",
+        "H13"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-18T00:25:56.706Z",
+      "id": 907
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "G6",
+        "G5"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-18T01:31:13.580Z",
+      "id": 908
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "B9"
+      ],
+      "totalPrice": 100000,
+      "status": "pending",
+      "createdAt": "2025-12-18T01:56:41.819Z",
+      "id": 909
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "B15",
+        "B14"
+      ],
+      "totalPrice": 200000,
+      "status": "pending",
+      "createdAt": "2025-12-18T02:39:33.757Z",
+      "id": 910
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "D9",
+        "C9"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-18T02:44:46.870Z",
+      "id": 911
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "D6",
+        "D7"
+      ],
+      "totalPrice": 260000,
+      "status": "pending",
+      "createdAt": "2025-12-18T04:09:19.318Z",
+      "id": 912
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "J10"
+      ],
+      "totalPrice": 100000,
+      "status": "pending",
+      "createdAt": "2025-12-19T00:42:22.829Z",
+      "id": 913
+    },
+    {
+      "userId": 1,
+      "showtimeId": 500,
+      "seatCodes": [
+        "A9"
+      ],
+      "totalPrice": 100000,
+      "status": "pending",
+      "createdAt": "2025-12-19T00:42:40.452Z",
+      "id": 914
+    }
+  ],
+  "transactions": [
+    {
+      "id": 2000,
+      "bookingId": 900,
+      "method": "vnpay",
+      "amount": 200000,
+      "status": "success",
+      "transactionCode": "VNP123456",
+      "createdAt": "2025-03-01T17:05:00"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "NCC giảm giá 50% ngày lễ tình nhân!",
+      "thumbnail": "/news/valentine.jpg",
+      "content": "Nội dung khuyến mãi...",
+      "createdAt": "2025-02-01",
+      "tags": [
+        "khuyen_mai",
+        "su_kien"
+      ]
+    }
+  ]
+}

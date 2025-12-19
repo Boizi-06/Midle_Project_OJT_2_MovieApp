@@ -1,0 +1,252 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkout-container {
+  padding: 20px;
+}
+
+.info-card, .payment-info, .cost-info {
+  margin-bottom: 20px;
+  
+  /* justify-content: center; */
+  gap: 10px;
+  padding: 10px;
+}
+
+
+
+.pay-button {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #f5222d;
+  color: white;
+}
+
+.note-container {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.note {
+  font-size: 14px;
+  color: #555;
+}
+
+.note strong {
+  color: #f5222d;
+}
+
+
+
+
+.checkout-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+
+.card-title {
+  color: #fff;
+}
+
+
+
+.payment-details p {
+  color: #fff;
+}
+
+.confirm-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pay-button {
+  background-color: #e40046;
+  color: #fff;
+  border: none;
+}
+
+.back-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkout-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.movie-info p {
+  color: #fff;
+}
+
+
+.payment-details p {
+  color: #fff;
+}
+
+.confirm-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.pay-button {
+  background-color: #e40046;
+  color: #fff;
+  border: none;
+}
+
+.back-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.note p {
+  color: #f97316;
+  font-size: 12px;
+}
+
+.ant-divider {
+  border-color: #b3b3b3;
+}
+
+.movie-info .ant-row {
+  margin-bottom: 15px;
+}
+
+
+.table-payment {
+    width: 100%;
+    height: 81px;
+    border: 1px solid #5d6a81;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.table-payment-header {
+    display: flex;
+    width: 95%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #5d6a81;
+
+}
+.table-payment-body {
+    display: flex;
+    width: 95%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.custom-checkbox {
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.list-option {
+  gap: 15px;
+}
+.payment-method {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  
+}
+.payment-method .custom-checkbox {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.payment-method .payment-method-img {
+  width: 60px;
+  height: 20px;
+}
+.payment-method-text {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+// Movie
+.movie-container {
+    .cards-desktop {
+        display: none;
+    }
+
+    .cards-mobile {
+        display: block;
+    }
+
+    @media (min-width: 769px) {
+        .cards-desktop {
+            display: block;
+        }
+
+        .cards-mobile {
+            display: none;
+        }
+    }
+
+    .icon-red {
+        width: 16px;
+        height: 16px;
+        border-radius: 9999px;
+        background: var(--color-red-60, #EF4444);
+    }
+
+    .title-movie-col-right {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .view-all-movieshowing {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .text-type-date-mv {
+        color: var(--color-azure-44, #5D6A81);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .name-movie {
+        color: #FFF;
+        font-size: var(--font-size-16, 16px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: var(--line-height-24, 24px);
+    }
+}
+
+/* CSS */
+.logo {
+    max-width: 70px;
+    height: 50px;
+    margin-left: -350px;
+}
+
+.menu-desktop {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -90px;
+    background-color: black;
+
+    gap: 30px;
+}
+
+.menu-desktop .ant-menu-item {
+    color: white;
+    /* Màu chữ menu */
+    font-size: 16px;
+    font-weight: 500;
+    background-color: black;
+}
+
+.menu-desktop :hover {
+    color: red;
+}
+
+.ml-auto {
+    margin-left: 600px;
+}
+
+.btn-none {
+    display: flex;
+    height: 40px;
+    padding: 10px 33px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    border: var(--stroke-weight-1, 1px) solid #FFF;
+    color: #FFF;
+    background-color: black;
+}
+
+.btn-red {
+    display: flex;
+    height: 40px;
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    background: linear-gradient(244deg, #FE6969 0%, #E30713 100%);
+}
